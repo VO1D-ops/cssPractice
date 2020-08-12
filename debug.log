@@ -1,0 +1,133 @@
+[0705/233920.674:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0706/114452.243:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0706/212209.176:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0707/110632.018:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0707/170726.377:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0707/171949.905:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0708/162216.486:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0708/214653.839:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0709/122121.252:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0712/211827.307:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0712/212814.254:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/135658.363:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/140658.363:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/140658.364:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/141158.363:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/142658.364:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/144158.364:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/145658.364:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/151158.365:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/152658.366:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/154158.366:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/155658.367:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/161158.367:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/162658.368:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/164158.369:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/165658.369:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/171158.370:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/172658.370:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/174158.370:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/175658.371:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/181158.372:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/182658.373:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/184158.374:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/185658.374:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/190849.698:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/192715.585:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/220100.116:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/221600.139:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/223100.139:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/224600.189:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0713/224859.066:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.066:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.066:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0713/224859.097:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.097:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.113:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.113:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.113:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.097:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.128:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0713/224859.128:ERROR:process_info.cc(551)] ReadProcessData failed
+[0713/224859.097:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.097:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.066:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.128:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0713/224859.128:ERROR:process_info.cc(551)] ReadProcessData failed
+[0713/224859.222:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.222:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.222:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.222:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.222:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.222:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.222:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.222:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.222:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.238:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.238:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.238:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.316:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.316:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.316:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0713/224859.332:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0713/224859.332:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0713/224859.332:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0714/100426.439:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/162009.781:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/163009.782:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/163009.782:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/163509.792:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/165009.793:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/170509.793:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/172009.793:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/173509.795:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/175009.795:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/180509.795:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/182009.796:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/183509.796:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/185009.797:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/190509.798:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/192009.867:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/193509.997:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/195009.998:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/200510.004:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/202010.006:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/203510.052:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/214551.719:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0714/220051.719:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0722/184540.613:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0722/184705.308:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0723/143840.064:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0723/143921.428:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/124243.796:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/151005.232:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/151902.985:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/152902.970:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/152902.970:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/153402.986:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/154902.987:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/160402.987:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/161902.991:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/163402.999:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/164903.000:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/170403.000:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/171243.766:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/171903.001:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/173403.004:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/174903.005:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/180403.015:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/181903.017:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/183403.018:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/184503.514:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/184903.019:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/190403.019:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/190756.021:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0724/191435.103:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0728/093027.697:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0728/094027.720:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0728/094027.721:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0728/161334.659:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0728/162408.909:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0728/163408.921:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0728/163408.921:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0730/195348.218:ERROR:crash_report_database_win.cc(469)] failed to stat report

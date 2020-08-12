@@ -1,0 +1,403 @@
+/* Common */
+
+h1
+{
+    font-size: 60px;
+    color:rebeccapurple;
+    text-align: center;
+}
+
+nav
+{
+    background: darkslategray;
+    padding: 0.016px;
+}
+
+/* nav ul
+{
+    list-style: none;
+} */
+
+a
+{
+    text-decoration-line: none;
+    font-size: 22px ;
+    color: floralwhite;
+}
+
+nav li
+{
+    display: inline-block;
+    padding: 5px;
+}
+
+.container
+{
+    border: 10px dashed red;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/*
+
+/* practice */
+
+.heading
+{
+    color: rgb(182, 201, 15);
+}
+
+em
+{
+    color: rgb(54, 42, 32);
+    font-size: 50px;
+}
+
+.circleImg
+{
+    border-radius: 50%;
+}
+
+img
+{
+    
+    box-shadow: 7px 7px 4px rgb(122, 141, 124);
+    align-content: center;
+    margin-left: 25%;
+ 
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/*
+
+/* Navigation */
+
+.box
+{
+
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.flex
+{
+    background: 0 0 0 0.5;
+    border: 3px solid indigo;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    padding: 100px;
+}
+
+@keyframes fadeMe
+{
+    0% { opacity: 1;}
+    25% {opacity: 0.5;}
+    50% {opacity: 0;}
+    75% {opacity: 0.5;}
+    100% { opacity: 1;}
+}
+
+.A
+{
+    animation-name: fadeMe;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation
+{
+    0% {transform: rotate(90deg);}
+    25% {transform: rotate(180deg);}
+    50% {transform: rotate(270deg);}
+    75% {transform: rotate(360deg);}
+    100% {transform: rotate(450deg);}
+}
+
+.B
+{
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-radius: 10%;
+    background-image: radial-gradient(circle, red, orange, yellow,  pink, purple, blue);
+}
+
+@keyframes getBigger
+{
+    0% {transform: scale(1);}
+    25% {transform: scale(1.2);}
+    50% {transform: scale(1.5);}
+    75% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+.C
+{
+    animation-name: getBigger;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    text-align: center;
+    background-image: radial-gradient(circle, black,rgb(7, 6, 6), rgb(48, 40, 36), rgb(247, 234, 223));
+}
+
+@keyframes colorChange
+{
+    0% {background-color: whitesmoke;}
+    25% {background-color: rgb(175, 175, 175);}
+    50% {background-color: rgb(105, 105, 105);}
+    75% {background-color: rgb(56, 56, 56);}
+    100% {background-color: rgb(0, 0, 0);}
+}
+
+.D
+{
+    animation: colorChange 2s infinite;
+}
+
+@keyframes moveBox
+{
+    0%  {left: 0px;   top: 0px;}
+    25% {left: 200px; top: 0px;}
+    50%  {left: 200px; top:200px;}
+    75%  {left: 0px;   top: 200px;}
+    100%  {left: 0px;   top: 0px;}
+}
+
+.E
+{
+    position: relative;
+    background-color : orange;
+    animation: moveBox 7s infinite;
+}
+
+.F
+{
+
+    background-image: linear-gradient( purple, pink, yellow, rgb(12, 209, 144), rgb(231, 228, 27));
+    
+}
+
+.G
+{
+    background-image: cross-fade( url(post.png) 75%, url(scenic.jpg) 75%);;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* Contact Us */
+form
+{   
+     
+    border: solid black;
+    /* display: inline-block; */
+    /*float ignores the inline-display or basically works as a display alignment  */
+    /* float: left; */
+    /* flex ignores float */
+    /* width: fit-content;  */
+    text-align: center;
+}
+
+form button
+{
+   margin: 0px 0px 20px 35px;
+}
+
+form input, textarea 
+{
+
+    height: 20px;
+    width: 200px;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    
+}
+
+ .justify
+{
+    width: 100%;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* float: left; */
+    /* justify-content: center; */
+    /* to align it in centre of the page */
+    /* align-items: center; */
+} 
+
+.contactlist
+{
+
+    /* margin-left:20px ; */
+    background-color: #333333;
+    width: 200px;
+    height: 250px;
+    /* float: right; */
+    padding: 20px;
+        
+}
+
+#gridli
+{
+    padding: 2px;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* GRID */
+
+.gridPractice
+{
+    display: grid;
+    grid-gap: 150px ;
+    grid-template-columns: repeat(2, [col] 500px);
+    grid-template-rows: repeat(auto, [row] auto);
+}
+
+.wrapper 
+{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 100px);
+    grid-template-rows: repeat(3, [row] auto);
+    border:  rgb(0, 153, 133) solid 5px;
+    background-color: whitesmoke;
+    color: darkslategrey;
+    width: fit-content;
+    justify-content: center;
+    margin: 50px;
+    padding: 30px;
+
+}
+
+.Box 
+{
+
+    background-color: #444;
+    color: #fff;
+    font-size: 150%;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 10;
+
+} 
+
+.a
+{
+
+    grid-column: col / span 2; 
+    /* col defines the initial position
+    and span defines how many times it's gonna span or repeat*/
+    grid-row: 1;
+
+}
+
+.b
+{
+
+    grid-column: col 3 / span 3;
+    grid-row: 1;
+
+}
+
+.c
+{
+
+    grid-column:  col 1 / span 1;
+    grid-row: 2;
+
+}
+
+.d
+{
+
+    grid-column:  col 2 / span 3 ;
+    grid-row: 2;
+
+}
+
+.e 
+{
+
+    grid-column: col 3 / span 3 ;
+    grid-row: 2;
+    background-color: rgba(71, 177, 65, 0.685);
+    z-index: 20;
+
+}
+
+.f
+{
+
+    grid-column:  col 1 / span 3;
+    grid-row: 3;
+
+}
+
+/* GRID - 2 */
+
+.g
+{
+
+    grid-column: 1;
+    grid-row: 1 / 4;
+
+}
+
+.h
+{
+
+    grid-column: col 5 ;
+    grid-row: 1 / 4;
+
+}
+
+.i
+{
+
+    grid-column:  col 2 ;
+    grid-row: 1;
+
+}
+
+.j
+{
+
+    grid-column:  col 3 / span 2 ;
+    grid-row: 1;
+
+}
+
+.k
+{
+
+    grid-column: col  / span 5 ;
+    grid-row: 2;
+    background-color: rgba(28, 190, 169, 0.74);
+    z-index: 20;
+
+}
+
+.l
+{
+
+    grid-column:  col 2 / span 3;
+    grid-row: 3;
+
+}
+
+
